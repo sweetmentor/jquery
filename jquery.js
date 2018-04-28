@@ -5,4 +5,6 @@ $(document).ready(function(){
             $("#myParagraph").append("<p>This is paragraph number " + i + "</p>");
         }
     })
+    
+    $("#myParagraph").addClass("card_head")
 })
